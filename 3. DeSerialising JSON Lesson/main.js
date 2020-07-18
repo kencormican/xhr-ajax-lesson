@@ -17,7 +17,7 @@ xhr.onreadystatechange = function () {			                 // Event Listener chec
   }  
 };
 
-console.log("This is from outside function: ",(data));          // log to console the jsonData paremeter collected from inside xhr function
+console.log("This is from outside function: ",(data));          // log to console outside setData & xhr functions
 
 
 
